@@ -13,7 +13,7 @@ There are different methods for classifying text as a rating system.
   Learns by the joint probability distribution p(x,y) then by using Bayes is transformed to p(y/x) however you are not directly         computing p(y/x).  In this classifier for text analysis, there is an assumption that the words are independent of one another.  
 
   ### Discriminative(RNN): 
-  Learns the conditional probability distribution p(y/x) "probability of y given x.  This type of model would read the data sequentially to try and figure out the difference in ratings based on examples.  
+  Learns the conditional probability distribution p(y/x) "probability of y given x.  This type of model would read the data sequentially to try and figure out the difference in ratings based on examples.  In this experiment I tried a number of different models (CNN, Multi Size CNN, and a LSTM).  
 
 ## Results:
-
+The LSTM performed the best.  I will continue writing the document in the month of December. 
