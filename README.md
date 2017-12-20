@@ -18,7 +18,7 @@ There are different methods for classifying text as a rating system.
 ## Code:
 The input variable in this is the text summary of a review, and the target output is the rating
 * The target variable (rating) I converted this to one hot encodings
-* Vectorized the text summary
+* Vectorized the text summary, I also removed emojis text
 * Calculated the average, max, min of the text summary
 * Set a sequence length that is appropriate 
 * Tested x3 models (single hidden layer, CNN, LSTM)
